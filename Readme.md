@@ -1,1 +1,1 @@
-The is the place where I store the code for my Djano tutorial
+The is the place where I store the code for my Djano tutorial.
