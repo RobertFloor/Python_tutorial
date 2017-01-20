@@ -1,0 +1,1 @@
+The is the palce where I store the code for my Djano tutorial
