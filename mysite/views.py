@@ -37,6 +37,6 @@ def contact(request):
             send_mail( cd['subject'], cd ['message'], cd.get('email', 'noreply@example.com'),['siteowner@example.com'],)
             return HttpResponseRedirect('/contact/')
     else:
-        form = ContactForm()
+        form = ContactForm(initial={'subject': 'I love your site!'})
     return render(request, 'contact_form.html', {'form': form})
         
